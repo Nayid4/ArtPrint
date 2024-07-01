@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Frontend-ArtPrint",
+    "slug": "Frontend-ArtPrint",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nayid04.FrontendArtPrint"
+    },
+    "web": {
+      "favicon": ""
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6cc7cc04-2f26-43b8-94c7-69acc061ca7c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6cc7cc04-2f26-43b8-94c7-69acc061ca7c"
+    }
+  }
+}
