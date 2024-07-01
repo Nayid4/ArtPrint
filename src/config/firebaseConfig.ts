@@ -8,13 +8,13 @@ import ReactNativeAsyncStorage from '@react-native-async-storage/async-storage';
 import { getStorage } from 'firebase/storage';  // Importa Firebase Storage
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAYgi5VCXReXCaFgEVJdc_w03R7zNO149U",
-    authDomain: "art-print-aa424.firebaseapp.com",
-    projectId: "art-print-aa424",
-    storageBucket: "art-print-aa424.appspot.com",
-    messagingSenderId: "258252027604",
-    appId: "1:258252027604:web:26c809cf04bc2e37246d41",
-    measurementId: "G-0JXDQ7CMDL"
+  apiKey: "AIzaSyC7DJixHwgjR7mnHppds08Pp5snZAo56U4",
+  authDomain: "artprint-2aa0a.firebaseapp.com",
+  projectId: "artprint-2aa0a",
+  storageBucket: "artprint-2aa0a.appspot.com",
+  messagingSenderId: "291195002336",
+  appId: "1:291195002336:web:240d66e85cc0711ca49f85",
+  measurementId: "G-HRMHT8NY97"
 };
 
 const app = initializeApp(firebaseConfig);
