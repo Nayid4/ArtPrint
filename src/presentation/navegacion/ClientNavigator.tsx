@@ -6,7 +6,6 @@ import Home from '../screens/Cliente/Home';
 import CarritoDeCompras from '../screens/Cliente/CarritoDeCompras';
 import Perfil from '../screens/Cliente/Perfil';
 import DetallesDeProducto from '../screens/Cliente/DetallesDeProducto';
-import EditarPerfil from '../screens/Cliente/EditarPerfil';
 import { RootStackParamList } from '../types/navigation';
 
 const Tab = createBottomTabNavigator();
@@ -18,7 +17,6 @@ const ClientStack = () => (
     <Stack.Screen name="DetallesDeProducto" component={DetallesDeProducto} options={{ title: 'Detalles de Producto' }} />
     <Stack.Screen name="Perfil" component={Perfil} />
     <Stack.Screen name="CarritoDeCompras" component={CarritoDeCompras} />
-    <Stack.Screen name="EditarPerfil" component={EditarPerfil} />
   </Stack.Navigator>
 );
 

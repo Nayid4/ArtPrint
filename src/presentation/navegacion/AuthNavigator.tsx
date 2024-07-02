@@ -8,7 +8,6 @@ import { Ionicons, AntDesign, MaterialCommunityIcons } from '@expo/vector-icons'
 import CarritoDeCompras from '../screens/Cliente/CarritoDeCompras';
 import Perfil from '../screens/Cliente/Perfil';
 import DetallesDeProducto from '../screens/Cliente/DetallesDeProducto';
-import EditarPerfil from '../screens/Cliente/EditarPerfil';
 import { RootStackParamList } from '../types/navigation';
 
 const Tab = createBottomTabNavigator();
