@@ -27,6 +27,7 @@ const TarjetaDeProducto: React.FC<Props> = ({ imagen, titulo, precio, onPress })
       </View>
     </TouchableOpacity>
   );
+  
 };
 
 const styles = StyleSheet.create({

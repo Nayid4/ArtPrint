@@ -3,7 +3,6 @@ import { Producto } from '../../domain/entities/producto';
 export type RootStackParamList = {
   DetallesDeProducto: { producto: Producto };
   Login: undefined;
-  EditarPerfil: undefined;
   Home: undefined;
   Registro: undefined;
   Perfil: undefined;
